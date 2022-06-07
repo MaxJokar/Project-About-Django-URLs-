@@ -1,0 +1,27 @@
+{%  extends  'maintemplate.html' %}
+
+
+
+{% block content %} 
+    <form  method="post">
+        {% csrf_token %}
+        {% comment %} <h3> Do you Really want to Delete {{object.title}} ?</h3> {% endcomment %}
+        <h3> Do you Really want to Delete 
+            <span style="color: red;">
+                {{object.title}} ?
+            </span>    
+        </h3>
+        <input type="submit" value="YES">
+    </form>
+    <a href="{% url 'PostList'  %}" class="btn btn-primary "> Return To List</a>
+    <a href="{% url 'PostUpdate' object.id %}" class="btn btn-warning btn-xs"> Details</a>    
+
+
+{% endblock %}
+
+{% block title %}
+   Post Form
+{% endblock  %}
+
+
+        

@@ -1,0 +1,21 @@
+{%  extends  'maintemplate.html' %}
+
+
+
+{% block content %} 
+        <form action="" method="post">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input type="Submit" name="sub" value="New Post Submit ">
+
+        </form>
+
+{% endblock %}
+
+
+{% block title %}
+   Post Form
+{% endblock  %}
+
+
+        

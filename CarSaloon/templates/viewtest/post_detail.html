@@ -1,0 +1,19 @@
+{%  extends  'maintemplate.html' %}
+
+
+          {% comment %} Detail shows  an Object Model {% endcomment %}
+{% block content %}   
+        <table class="table table-striped table-bordered table-hover table-width60">
+                <h1> {{object.title}}</h1>
+                <p>{{object.description}}</p>
+                <p>{{object.is_active}}</p>
+        </table>
+{% endblock %}
+
+
+{% block title %}
+    Post List
+{% endblock  %}
+
+
+        

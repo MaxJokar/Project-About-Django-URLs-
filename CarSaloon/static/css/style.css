@@ -1,0 +1,118 @@
+/* 4 css is added */
+/* body{
+    background-color: rgb(65, 97, 238);
+} */
+
+h1{
+    border:1px solid rgb(245, 8, 119);
+    margin: left 50px;
+    padding-left: 5px;
+}
+.c1{
+
+    /* text-align: center; */
+    background-color: yellow;
+}
+
+.img-class{
+    width:200px;
+    height: 500px;
+    border: 150px solid rgb(209, 136, 46);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* # page 12 FROM HERE AFTER WE MADE OUR  HEADER AND FOOTER IN PAGE 11 AND 12 FOR  MANTEMPLAEHTML WE CAN DESIGN OUR HEADER AND FOOTER */
+
+.header,footer{
+    height: 100px;
+    text-align: center;
+    background: blue;
+    font-size: 30px;
+    border: 1px solid beige;
+
+
+
+}
+
+/* .footer{
+
+    background: yellow;
+    height: 50px;
+    text-align: 20px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    margin: top 20px; 
+
+} */
+
+.main-box{
+        /* width:1800px; */
+        margin: 50px auto ;
+        /* height: 300px; */
+        /* background: rgb(3, 114, 49); */
+        display:flex;
+        justify-content: space-between;
+        border-radius: 10px;
+}
+
+
+
+.blog-item{
+ width: 350px;
+ height: 450px;
+ background:rgb(131, 169, 179);
+ margin: 100px;
+ border-radius: 10px;
+ padding: 40px;
+
+}  
+
+.blog-item div {
+    text-align: justify;
+}
+.blog-item span{
+    color:  rgb(71, 93, 187);
+    font-size: 12px;
+}
+
+
+.blog-img{
+    width:100% ;
+    
+
+}
+
+
+
+
+.author-img{
+    width:120 px;
+    height:150px;
+    }
+    
+.helptext{
+    color:red
+}   
+
+.c1{
+    background-color: yellow;
+}
+
+.errorlist li{
+    color:red;
+}
+
+
+.table-width60{
+    width:60% !important;
+    margin: 10px auto;
+}
+
+.btn, .btn-xs{
+    padding: .25rem .25rem .5rem! important;
+    font-size: 875rem! important;
+    line-height: .5 !important;
+    border-radius: .2rem !important;
+
+}
