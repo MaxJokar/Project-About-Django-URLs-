@@ -66,7 +66,7 @@ def viewfun10(request):
 
 
 #check safe url,reverse, urlencode:
-#reverse('u8')=>To get Address of URL in our view!It Gets your a string
+#reverse('u8')=>To get Address of URL in our view!It Gets your a string:
 from django.urls import reverse  #reverse: To change name of  a  URL to Address of that URL :
 from urllib.parse import urlencode  # To Make a   QueryString in URL  OR  change a  dictionary to a  QueryString
 # from django.utils.http import is_safe_url 
