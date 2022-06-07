@@ -73,7 +73,7 @@ from urllib.parse import urlencode  # To Make a   QueryString in URL  OR  change
 #Verifies security of a specific  URL ,gives Boolean:we Obliged what sites are Allowed 
  
 def viewfun11(request):
-    # if not is_safe_url(url="urltest/u1", allowed_hosts={'mysite.com'}, requre_https=True):
+    # if not is_safe_url(url="urltest/u1", allowed_hosts={'https://google.com/','https://Max.com/'}, requre_https=True): Any Other sites are not Allowed!
     #if not is_safe_url(url="urltest/u1", allowed_hosts=request.get_host()):=>means Only Internal URLs
         # return render(request,'urltest/error.html')
     base_url=reverse('u10')
